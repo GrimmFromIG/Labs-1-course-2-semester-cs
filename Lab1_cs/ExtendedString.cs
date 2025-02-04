@@ -6,7 +6,46 @@ class ExtendedString
 
     public ExtendedString(string str)
     {
-        data = str;
+        if (IsNumeric(str))
+        {
+            data = str;
+        }
+        else
+        {
+            Console.WriteLine("Помилка: Введений рядок містить нецифрові символи.");
+            data = GetValidNumericInput(); // Запрашиваем ввод заново
+        }
+    }
+
+    private static string GetValidNumericInput()
+    {
+        string input;
+        bool isValid;
+
+        do
+        {
+            Console.Write("Введіть цифровий рядок: ");
+            input = Console.ReadLine();
+            isValid = IsNumeric(input);
+
+            if (!isValid)
+            {
+                Console.WriteLine("Помилка: Введений рядок містить нецифрові символи. Спробуйте ще раз.");
+            }
+
+        } while (!isValid);
+
+        return input;
+    }
+
+    private static bool IsNumeric(string str)
+    {
+        foreach (char c in str)
+        {
+            if (!char.IsDigit(c))
+                return false;
+        }
+        return true;
     }
 
     public string GetString()

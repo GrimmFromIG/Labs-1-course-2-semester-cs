@@ -6,8 +6,7 @@ class Program
     {
         Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-        Console.WriteLine("Введіть цифровий рядок:");
-
+        Console.Write("Введіть цифровий рядок: ");
         string input = Console.ReadLine();
 
         ExtendedString strObj = new ExtendedString(input);
