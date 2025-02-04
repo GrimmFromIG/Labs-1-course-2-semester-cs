@@ -13,7 +13,7 @@ class ExtendedString
         else
         {
             Console.WriteLine("Помилка: Введений рядок містить нецифрові символи.");
-            data = GetValidNumericInput(); // Запрашиваем ввод заново
+            data = GetValidNumericInput(); 
         }
     }
 
