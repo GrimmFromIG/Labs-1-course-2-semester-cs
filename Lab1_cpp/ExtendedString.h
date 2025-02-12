@@ -34,13 +34,13 @@ std::string ExtendedString::getValidNumericInput()
 
     do
     {
-        std::cout << "Ââåä³òü öèôðîâèé ðÿäîê: ";
+        std::cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ Ñ†Ð¸Ñ„Ñ€Ð¾Ð²Ð¸Ð¹ Ñ€ÑÐ´Ð¾Ðº: ";
         std::cin >> input;
         isValid = isNumeric(input);
 
         if (!isValid)
         {
-            std::cout << "Ïîìèëêà: Ââåäåíèé ðÿäîê ì³ñòèòü íåöèôðîâ³ ñèìâîëè. Ñïðîáóéòå ùå ðàç.\n";
+            std::cout << "ÐŸÐ¾Ð¼Ð¸Ð»ÐºÐ°: Ð’Ð²ÐµÐ´ÐµÐ½Ð¸Ð¹ Ñ€ÑÐ´Ð¾Ðº Ð¼Ñ–ÑÑ‚Ð¸Ñ‚ÑŒ Ð½ÐµÑ†Ð¸Ñ„Ñ€Ð¾Ð²Ñ– ÑÐ¸Ð¼Ð²Ð¾Ð»Ð¸. Ð¡Ð¿Ñ€Ð¾Ð±ÑƒÐ¹Ñ‚Ðµ Ñ‰Ðµ Ñ€Ð°Ð·.\n";
         }
 
     } while (!isValid);
@@ -56,7 +56,7 @@ ExtendedString::ExtendedString(const std::string& str)
     }
     else
     {
-        std::cout << "Ïîìèëêà: Ââåäåíèé ðÿäîê ì³ñòèòü íåöèôðîâ³ ñèìâîëè.\n";
+        std::cout << "ÃÃ®Ã¬Ã¨Ã«ÃªÃ : Ã‚Ã¢Ã¥Ã¤Ã¥Ã­Ã¨Ã© Ã°Ã¿Ã¤Ã®Ãª Ã¬Â³Ã±Ã²Ã¨Ã²Ã¼ Ã­Ã¥Ã¶Ã¨Ã´Ã°Ã®Ã¢Â³ Ã±Ã¨Ã¬Ã¢Ã®Ã«Ã¨.\n";
         data = getValidNumericInput();
     }
 }
