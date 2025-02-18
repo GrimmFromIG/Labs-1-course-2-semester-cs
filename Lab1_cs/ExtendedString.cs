@@ -12,7 +12,7 @@ class ExtendedString
         }
         else
         {
-            Console.WriteLine("Помилка: Введений рядок містить нецифрові символи.");
+            Console.WriteLine("String contain non numeric symbols. Try again");
             data = GetValidNumericInput(); 
         }
     }
@@ -24,13 +24,13 @@ class ExtendedString
 
         do
         {
-            Console.Write("Введіть цифровий рядок: ");
+            Console.Write("Enter a numeric string: ");
             input = Console.ReadLine();
             isValid = IsNumeric(input);
 
             if (!isValid)
             {
-                Console.WriteLine("Помилка: Введений рядок містить нецифрові символи. Спробуйте ще раз.");
+                Console.WriteLine("String contain non numeric symbols. Try again");
             }
 
         } while (!isValid);

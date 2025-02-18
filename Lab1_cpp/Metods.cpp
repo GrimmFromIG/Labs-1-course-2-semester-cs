@@ -12,13 +12,13 @@ std::string ExtendedString::getValidNumericInput()
 
     do
     {
-        std::cout << "Введіть цифровий рядок: ";
+        std::cout << "Enter a numeric string: ";
         std::cin >> input;
         isValid = isNumeric(input);
 
         if (!isValid)
         {
-            std::cout << "Помилка: Введений рядок містить нецифрові символи. Спробуйте ще раз.\n";
+            std::cout << "String contain non numeric symbols. Try again.\n";
         }
 
     } while (!isValid);
@@ -34,7 +34,7 @@ ExtendedString::ExtendedString(const std::string& str)
     }
     else
     {
-        std::cout << "Помилка: Введений рядок містить нецифрові символи.\n";
+        std::cout << "String contain non numeric symbols. Try again.\n";
         data = getValidNumericInput();
     }
 }
