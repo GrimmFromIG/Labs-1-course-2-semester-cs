@@ -1,5 +1,4 @@
-﻿// StringProcessor.cs
-using System;
+﻿using System;
 
 public class StringProcessor
 {
