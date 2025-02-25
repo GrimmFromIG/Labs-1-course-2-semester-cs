@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Lab2_cp.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="StringProcessor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StringProcessor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
