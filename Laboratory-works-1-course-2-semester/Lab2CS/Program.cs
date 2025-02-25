@@ -4,15 +4,15 @@ class Program
 {
     static void Main()
     {
-        StringProcessor sp1 = new StringProcessor("12345567890");
-        StringProcessor sp2 = new StringProcessor(sp1);
-        Console.WriteLine("Начальная строка: " + sp1.GetString());
+        Console.WriteLine("Enter a numeric string:");
+        string input = Console.ReadLine();
+        StringProcessor strObj = new StringProcessor(input);
 
-        sp1.RemoveFives();
-        Console.WriteLine("Строка после удаления '5': " + sp1.GetString());
-        Console.WriteLine("Длина измененной строки: " + sp1.GetLength());
+        Console.WriteLine("Initial string: " + strObj.GetString());
+        Console.WriteLine("String length: " + strObj.GetLength());
 
-        GC.Collect();
-        GC.WaitForPendingFinalizers();
+        strObj.RemoveFives();
+        Console.WriteLine("String after deleting char '5': " + strObj.GetString());
+        Console.WriteLine("New string length: " + strObj.GetLength());
     }
 }

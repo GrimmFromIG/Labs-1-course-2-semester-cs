@@ -1,4 +1,5 @@
-﻿using System;
+﻿// StringProcessor.cs
+using System;
 
 public class StringProcessor
 {
@@ -11,17 +12,20 @@ public class StringProcessor
 
     public StringProcessor(string inputStr)
     {
-        str = inputStr;
+        if (IsNumeric(inputStr))
+        {
+            str = inputStr;
+        }
+        else
+        {
+            Console.WriteLine("Error: String contains non-numeric symbols. Enter a valid numeric string.");
+            str = GetValidNumericInput();
+        }
     }
 
-    public StringProcessor(StringProcessor other)
+    public string GetString()
     {
-        str = other.str;
-    }
-
-    ~StringProcessor()
-    {
-        Console.WriteLine("Объект уничтожен. Строка: " + str);
+        return str;
     }
 
     public int GetLength()
@@ -31,11 +35,51 @@ public class StringProcessor
 
     public void RemoveFives()
     {
-        str = str.Replace("5", "");
+        string result = "";
+        foreach (char c in str)
+        {
+            if (c != '5')
+            {
+                result += c;
+            }
+        }
+        str = result;
     }
 
-    public string GetString()
+    public void SetString(string newStr)
     {
-        return str;
+        if (IsNumeric(newStr))
+        {
+            str = newStr;
+        }
+        else
+        {
+            Console.WriteLine("Error: New string contains non-numeric symbols. Keeping the old string.");
+        }
+    }
+
+    private static bool IsNumeric(string input)
+    {
+        return !string.IsNullOrEmpty(input) && input.All(char.IsDigit);
+    }
+
+    private static string GetValidNumericInput()
+    {
+        string input;
+        bool isValid;
+
+        do
+        {
+            Console.Write("Enter a numeric string: ");
+            input = Console.ReadLine();
+            isValid = IsNumeric(input);
+
+            if (!isValid)
+            {
+                Console.WriteLine("Error: String contains non-numeric symbols. Try again.");
+            }
+        } while (!isValid);
+
+        return input;
     }
 }
