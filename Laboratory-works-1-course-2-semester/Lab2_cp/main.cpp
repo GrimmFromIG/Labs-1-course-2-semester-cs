@@ -1,16 +1,20 @@
 ﻿#include "StringProcessor.h"
 #include <iostream>
 
-int main() 
+int main()
 {
-  input = 
-    StringProcessor sp1(input)
-    StringProcessor sp2(sp1);
-    std::cout << "Начальная строка: " << sp1.getString() << std::endl;
+    std::cout << "Enter a numeric string: " << std::endl;
+    std::string input;
+    std::cin >> input;
+    StringProcessor strObj(input);
 
-    sp1.removeFives();
-    std::cout << "Строка после удаления '5': " << sp1.getString() << std::endl;
-    std::cout << "Длина измененной строки: " << sp1.getLength() << std::endl;
+    std::cout << "Initial string: " << strObj.getString() << std::endl;
+    std::cout << "String length: " << strObj.getLength() << std::endl;
+
+   
+    strObj.removeFives();
+    std::cout << "String after deleting char '5': " << strObj.getString() << std::endl;
+    std::cout << "New string length: " << strObj.getLength() << std::endl;
 
     return 0;
 }
