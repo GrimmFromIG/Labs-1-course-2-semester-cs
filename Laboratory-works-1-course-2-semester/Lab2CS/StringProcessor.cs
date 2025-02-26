@@ -22,6 +22,11 @@ public class StringProcessor
         }
     }
 
+    public StringProcessor(StringProcessor other)
+    {
+        this.str = other.str;
+    }
+
     public string GetString()
     {
         return str;
