@@ -5,7 +5,7 @@ class Program
     static void Main()
     {
         Console.WriteLine("Enter a numeric string:");
-        string input = Console.ReadLine();
+        string input = Console.ReadLine() ?? "";
         StringProcessor strObj = new StringProcessor(input);
 
         Console.WriteLine("Initial string: " + strObj.GetString());

@@ -75,7 +75,7 @@ public class StringProcessor
         do
         {
             Console.Write("Enter a numeric string: ");
-            input = Console.ReadLine();
+            input = Console.ReadLine() ?? "";
             isValid = IsNumeric(input);
 
             if (!isValid)

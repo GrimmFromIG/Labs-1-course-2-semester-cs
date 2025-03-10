@@ -1,0 +1,15 @@
+c:\projects\Laboratory-works-1-course-2-semester\Lab2_cs\bin\Debug\net9.0\Lab2_cs.exe
+c:\projects\Laboratory-works-1-course-2-semester\Lab2_cs\bin\Debug\net9.0\Lab2_cs.deps.json
+c:\projects\Laboratory-works-1-course-2-semester\Lab2_cs\bin\Debug\net9.0\Lab2_cs.runtimeconfig.json
+c:\projects\Laboratory-works-1-course-2-semester\Lab2_cs\bin\Debug\net9.0\Lab2_cs.dll
+c:\projects\Laboratory-works-1-course-2-semester\Lab2_cs\bin\Debug\net9.0\Lab2_cs.pdb
+c:\projects\Laboratory-works-1-course-2-semester\Lab2_cs\obj\Debug\net9.0\Lab2_cs.GeneratedMSBuildEditorConfig.editorconfig
+c:\projects\Laboratory-works-1-course-2-semester\Lab2_cs\obj\Debug\net9.0\Lab2_cs.AssemblyInfoInputs.cache
+c:\projects\Laboratory-works-1-course-2-semester\Lab2_cs\obj\Debug\net9.0\Lab2_cs.AssemblyInfo.cs
+c:\projects\Laboratory-works-1-course-2-semester\Lab2_cs\obj\Debug\net9.0\Lab2_cs.csproj.CoreCompileInputs.cache
+c:\projects\Laboratory-works-1-course-2-semester\Lab2_cs\obj\Debug\net9.0\Lab2_cs.sourcelink.json
+c:\projects\Laboratory-works-1-course-2-semester\Lab2_cs\obj\Debug\net9.0\Lab2_cs.dll
+c:\projects\Laboratory-works-1-course-2-semester\Lab2_cs\obj\Debug\net9.0\refint\Lab2_cs.dll
+c:\projects\Laboratory-works-1-course-2-semester\Lab2_cs\obj\Debug\net9.0\Lab2_cs.pdb
+c:\projects\Laboratory-works-1-course-2-semester\Lab2_cs\obj\Debug\net9.0\Lab2_cs.genruntimeconfig.cache
+c:\projects\Laboratory-works-1-course-2-semester\Lab2_cs\obj\Debug\net9.0\ref\Lab2_cs.dll
