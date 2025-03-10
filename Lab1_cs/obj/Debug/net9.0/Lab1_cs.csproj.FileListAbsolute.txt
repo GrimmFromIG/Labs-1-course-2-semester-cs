@@ -1,0 +1,15 @@
+C:\projects\Labs-1-course-2-semester-cs\Lab1_cs\bin\Debug\net9.0\Lab1_cs.exe
+C:\projects\Labs-1-course-2-semester-cs\Lab1_cs\bin\Debug\net9.0\Lab1_cs.deps.json
+C:\projects\Labs-1-course-2-semester-cs\Lab1_cs\bin\Debug\net9.0\Lab1_cs.runtimeconfig.json
+C:\projects\Labs-1-course-2-semester-cs\Lab1_cs\bin\Debug\net9.0\Lab1_cs.dll
+C:\projects\Labs-1-course-2-semester-cs\Lab1_cs\bin\Debug\net9.0\Lab1_cs.pdb
+C:\projects\Labs-1-course-2-semester-cs\Lab1_cs\obj\Debug\net9.0\Lab1_cs.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\Labs-1-course-2-semester-cs\Lab1_cs\obj\Debug\net9.0\Lab1_cs.AssemblyInfoInputs.cache
+C:\projects\Labs-1-course-2-semester-cs\Lab1_cs\obj\Debug\net9.0\Lab1_cs.AssemblyInfo.cs
+C:\projects\Labs-1-course-2-semester-cs\Lab1_cs\obj\Debug\net9.0\Lab1_cs.csproj.CoreCompileInputs.cache
+C:\projects\Labs-1-course-2-semester-cs\Lab1_cs\obj\Debug\net9.0\Lab1_cs.sourcelink.json
+C:\projects\Labs-1-course-2-semester-cs\Lab1_cs\obj\Debug\net9.0\Lab1_cs.dll
+C:\projects\Labs-1-course-2-semester-cs\Lab1_cs\obj\Debug\net9.0\refint\Lab1_cs.dll
+C:\projects\Labs-1-course-2-semester-cs\Lab1_cs\obj\Debug\net9.0\Lab1_cs.pdb
+C:\projects\Labs-1-course-2-semester-cs\Lab1_cs\obj\Debug\net9.0\Lab1_cs.genruntimeconfig.cache
+C:\projects\Labs-1-course-2-semester-cs\Lab1_cs\obj\Debug\net9.0\ref\Lab1_cs.dll
